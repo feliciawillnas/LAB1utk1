@@ -6,25 +6,17 @@ function addToInventory() {
     console.log(inventory); 
 }
 
-//while(true) {
-//    let input = prompt("add item"); 
-//    inventory.push(input); 
-//    console.log(inventory); 
-//}
+///////////////////
 
+function showItemList() {
+    var x = document.getElementById("showItemList");
 
-
-// function addToInventory() {
-//    const addItem = prompt("add item:"); 
-
-//    for (const item of inventory) {
-//        console.log(item);
-//    }
-//}
-
-
-
-//for (const item of inventory) {
-//    console.log (inventory);
-//}
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } 
+    
+    else {
+      x.style.display = "block";
+    }
+  }
  

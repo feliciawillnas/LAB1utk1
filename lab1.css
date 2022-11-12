@@ -1,0 +1,10 @@
+.itemlist {
+    width: 200px;
+    border: 1px solid black;
+    display: none;
+}
+
+li {
+    list-style-type: none;
+}
+
