@@ -9,7 +9,7 @@ function addToInventory() {
 ///////////////////
 
 function showItemList() {
-    var x = document.getElementById("showItemList");
+    var x = document.getElementById("itemlist");
 
     if (x.style.display === "block") {
       x.style.display = "none";
@@ -20,3 +20,4 @@ function showItemList() {
     }
   }
  
+  ////////////////
