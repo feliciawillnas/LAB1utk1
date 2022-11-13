@@ -13,6 +13,12 @@ function addToInventory() {
 }
 
 
+function addToInventory2() {
+  
+}
+
+
+
 ///////////////////
 
 function showItemList() {
@@ -29,12 +35,38 @@ function showItemList() {
  
   ////////////////
 
-  function showCart() {
-    var displayCart = (inventory);
-    alert(displayCart);
+//function showCart() {
+//   var displayCart = (inventory);
+//  alert(displayCart);
+//}
+
+  /////////////////
+
+  function showCart2() {
+    var cart = (inventory); 
+    x = document.getElementById("showcart2");
+
+    document.getElementById("showcart2").innerHTML = "your cart: " + cart; 
+
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } 
+    else {
+      x.style.display = "block";
+    }
   }
 
   /////////////////
+
+
+
+
+
+
+
+
+
+  
 
   function fruitArea() {
     var x = document.getElementById("fruitarea"); 
