@@ -9,17 +9,45 @@
     <script src="lab1.js"></script>
 </head>
 <body>
-    <button onclick="addToInventory()">add item to cart</button>
-    
-    <button onclick="showItemList()">show item list</button>
+    <header></header>
+    <main>
+        <div class="store">
 
-    <div class="itemlist">
-        <ul>
-            <li>apple</li>
-            <li>bread</li>
-            <li>orange juice</li>
-        </ul>
-    </div>
+            <div id="entrance">
+                <h1 class="startingarea">welcome</h1>
+                <div class="storyline">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam iure laborum in possimus repellat ipsum exercitationem veniam odio laboriosam reiciendis. Laborum praesentium quo numquam quae veritatis totam modi maiores quaerat?</p>
+                </div>
+            </div>
+            
+            <div id="fruitarea">
+                <h1 class="">fruit</h1>
+                <div class="">
+                    <p>here are these fruits: </p>
+                </div>
+            </div>
+
+            <button onclick="fruitArea()">fruit area</button>
+            <button onclick="">bread area</button>
+            <button onclick="">payment</button>
+        </div>
+
+        <button onclick="addToInventory()">add item to cart</button>
+    
+        <button onclick="showItemList()">show item list</button>
+
+        <button onclick="showCart()">show cart</button>
+
+        <div id="itemlist">
+            <ul>
+                <li>apple</li>
+                <li>bread</li>
+                <li>orange juice</li>
+            </ul>
+        </div>
+        
+    </main>
+
     
 </body>
 </html>
