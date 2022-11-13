@@ -32,10 +32,20 @@ main {
 
 #entrance {
     display: block;
+    /****
+    kanske kan göra att den täcks eller ngt 
+    position: fixed;
+    overflow: hidden;
+    ****/
 }
 
 #fruitarea {
     display: none; 
+    /***
+    position: fixed; 
+    background-color: white;
+    width: 400px;
+    ***/
 }
 
 .storyline {

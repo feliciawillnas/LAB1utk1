@@ -36,15 +36,16 @@ function showItemList() {
 
   /////////////////
 
-
   function fruitArea() {
-    var x = document.getElementById("fruitarea");
+    var x = document.getElementById("fruitarea"); 
+    var k = document.getElementById("entrance"); 
 
     if (x.style.display === "block") {
-      x.style.display = "none";
-    } 
-    
+      x.style.display = "none"; 
+    }
     else {
-      x.style.display = "block";
+      x.style.display = "block"; 
     }
   }
+
+
