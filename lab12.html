@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="lab1.css">
-    <script src="lab1.js"></script>
+    <link rel="stylesheet" href="lab12.css">
+    <script src="lab12.js"></script>
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,7 +39,20 @@
 
         <button onclick="addToInventory()">add item to cart</button>
         
-        <input id="addtoinventory2" type="">
+  
+        <form>
+            <div class="formbox">
+                <input type="text" id="addtoinventory" placeholder="Title"/>
+            </div>
+    
+            <div class="formbox">
+                <button id="formbutton">Click to Add</button>
+            </div>
+    
+            <div id="msg">
+                <pre></pre> <!---------idk?-->
+            </div>
+        </form>
     
         <button onclick="showItemList()">show item list</button>
 <!--
@@ -50,7 +63,7 @@
 
         <div id="itemlist">
             <ul>
-                <li id="apple">apple</li>
+                <li>apple</li>
                 <li>bread</li>
                 <li>orange juice</li>
             </ul>

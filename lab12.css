@@ -92,3 +92,8 @@ button {
     font-family: 'Silkscreen', cursive;
 }
 
+input[type="text"]
+{
+    font-family: 'Silkscreen', cursive;
+    font-size: 9px;
+}
