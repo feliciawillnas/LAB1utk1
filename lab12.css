@@ -1,9 +1,3 @@
-:root {
-    --box-padding: 20px; 
-    --box-border: 1px solid black; 
-    --box-width: 200px; 
-    }
-
 * {
     margin: 0;
 }
@@ -15,42 +9,45 @@ body {
 }
 
 header {
-    height: 300px;
+    height: 250px;
 }
 
 main {
     background-color: aliceblue;
-   /** background-image: url(https://preview.redd.it/u9bbkoyzzdi21.jpg?auto=webp&s=2b09c27b9ea0ff3f701b8f7a67b1ca89d0f5bacf);
-    background-size:cover;
-    **/
-    border: 1px black;
     width: fit-content; 
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid black;
+}
+
+h3 {
+    font-size: 11px;
+    display: inline;
 }
 
 .store {
-    border: 1px solid black;
     width: 400px;
     padding: 20px;
 }
 
+
+
+
+/***********AREAS OF THE STORE*************/
 #entrance {
     display: block;
-    /****
-    kanske kan göra att den täcks eller ngt 
-    position: fixed;
-    overflow: hidden;
-    ****/
 }
 
 #fruitarea {
     display: none; 
-    /***
-    position: fixed; 
-    background-color: white;
-    width: 400px;
-    ***/
+}
+
+#bread {
+    display: none; 
+}
+
+#payment {
+    display: none; 
 }
 
 .storyline {
@@ -64,19 +61,11 @@ main {
     border: 1px solid black;
     margin-top: 2px;
     display: none;
-}
-
-#apple {
-    text-decoration: none;
-    color: black;
-}
-
-li {
-    list-style-type: none;
+    
 }
 
 #showcart2 {
-    width: 200px;
+    width: fit-content;
     border: 1px solid black;
     margin-top: 2px;
     display: none;
@@ -89,11 +78,25 @@ button {
     padding: 5px 5px;
     font-size: 9px;
     cursor: pointer;
-    font-family: 'Silkscreen', cursive;
+    font-family: 'Silkscreen'; 
+    display: inline;
+    margin-top: 5px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
 }
 
 input[type="text"]
 {
-    font-family: 'Silkscreen', cursive;
+    font-family: 'Silkscreen'; 
     font-size: 9px;
+    padding: 5px 5px;
+    background-color: aliceblue;
+}
+
+.formbox {
+    display: inline;
 }

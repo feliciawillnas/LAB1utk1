@@ -7,21 +7,27 @@
     <title>Document</title>
     <link rel="stylesheet" href="lab12.css">
     <script src="lab12.js"></script>
-
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&family=VT323&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header></header>
     <main>
         <div class="store">
 
+            <div id="desireditems"></div>
+
             <div id="entrance">
-                <h1 class="startingarea">welcome</h1>
+                <h1 class="startingarea">↳-welcome-༉‧₊˚✧</h1>
                 <div class="storyline">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam iure laborum in possimus repellat ipsum exercitationem veniam odio laboriosam reiciendis. Laborum praesentium quo numquam quae veritatis totam modi maiores quaerat?</p>
+                    <p>
+                        you have come here to purchase these desired items. 
+                        look around the store for the items youre searching for and add them to your cart by typing them down below.
+                        would you like to enter the store?
+                        PRESS BUTTON TO CONTINUE
+                    </p>
                 </div>
             </div>
             
@@ -31,46 +37,44 @@
                     <p>here are these fruits:</p>
                 </div>
             </div>
+ 
+            <div id="bread">
+                <h1 class="">bread</h1>
+                <div class="">
+                    <p>here are these fruits:</p>
+                </div>
+            </div>
 
+            <div id="payment">
+                <h1 class="">payment</h1>
+            </div>
+
+
+            <h3>areas:</h3>
             <button onclick="fruitArea()">fruit area</button>
-            <button onclick="">bread area</button>
-            <button onclick="">payment</button>
-        </div>
-
-        <button onclick="addToInventory()">add item to cart</button>
+            <button onclick="breadSection()">bread area</button>
+            <button onclick="makePayment()">payment</button>
+            
+            <form>
+                <div class="formbox">
+                    <input type="text" id="addtoinventory" placeholder="add article"/>
+                </div>
+                <div class="formbox">
+                    <button id="formbutton">add</button>
+                </div>
+                <div id="msg">
+                    <pre></pre>
+                </div>
+            </form>
         
-  
-        <form>
-            <div class="formbox">
-                <input type="text" id="addtoinventory" placeholder="Title"/>
-            </div>
-    
-            <div class="formbox">
-                <button id="formbutton">Click to Add</button>
-            </div>
-    
-            <div id="msg">
-                <pre></pre> <!---------idk?-->
-            </div>
-        </form>
-    
-        <button onclick="showItemList()">show item list</button>
-<!--
-        <button onclick="showCart()">show cart</button>
--->
-        <button onclick="showCart2()">show cart2</button>
-        <div id="showcart2"></div>
+            <button onclick="showItemList()">show item list</button>
+            <button onclick="showCart2()">show cart</button>
 
-        <div id="itemlist">
-            <ul>
-                <li>apple</li>
-                <li>bread</li>
-                <li>orange juice</li>
-            </ul>
+            <div id="showcart2"><!---input--></div>
+            <div id="itemlist">
+            
+            </div>
         </div>
-        
     </main>
-
-    
 </body>
 </html>
