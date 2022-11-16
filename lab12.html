@@ -20,8 +20,8 @@
             <div id="desireditems"></div>
 
             <div id="entrance">
-                <h1 class="startingarea">↳-welcome-༉‧₊˚✧</h1>
-                <div class="storyline">
+                <h1 class="label">↳-welcome-‧</h1>
+                <div class="info">
                     <p>
                         you have come here to purchase these desired items. 
                         look around the store for the items youre searching for and add them to your cart by typing them down below.
@@ -32,48 +32,60 @@
             </div>
             
             <div id="fruitarea">
-                <h1 class="">fruit</h1>
-                <div class="">
+                <h1 class="label">fruit</h1>
+                <div class="info">
                     <p>here are these fruits:</p>
                 </div>
             </div>
  
             <div id="bread">
-                <h1 class="">bread</h1>
-                <div class="">
+                <h1 class="label">bread</h1>
+                <div class="info">
                     <p>here are these fruits:</p>
                 </div>
             </div>
 
             <div id="payment">
-                <h1 class="">payment</h1>
+                <h1 class="label">payment</h1>
+                <div class="info">
+                    payment2(); <!-----stoppa in funktionen här ngnstans -->
+                    <p id="payment2"></p>
+                </div>
             </div>
 
+            <div class="upper">
+                <h3>areas:</h3>
+                <button onclick="fruitArea()">fruit area</button>
+                <button onclick="breadSection()">bread area</button>
+                <button onclick="makePayment()">payment</button>
 
-            <h3>areas:</h3>
-            <button onclick="fruitArea()">fruit area</button>
-            <button onclick="breadSection()">bread area</button>
-            <button onclick="makePayment()">payment</button>
-            
-            <form>
-                <div class="formbox">
-                    <input type="text" id="addtoinventory" placeholder="add article"/>
-                </div>
-                <div class="formbox">
-                    <button id="formbutton">add</button>
-                </div>
-                <div id="msg">
-                    <pre></pre>
-                </div>
-            </form>
+            </div>
+
+            <div class="lower">
+                <form>
+                    <div class="formbox">
+                        <input type="text" id="addtoinventory" placeholder="add article"/>
+                    </div>
+                    <div class="formbox">
+                        <button id="formbutton">add</button>
+                    </div>
+                    <div id="msg">
+                        <pre></pre>
+                    </div>
+                </form>
+
+                <div class="lower2">
+                    <button onclick="showItemList()">show item list</button>
+                    <button onclick="showCart2()">show cart</button>
+                    <button onclick="printSame()">visa</button>
         
-            <button onclick="showItemList()">show item list</button>
-            <button onclick="showCart2()">show cart</button>
-
-            <div id="showcart2"><!---input--></div>
-            <div id="itemlist">
-            
+                    <div id="showcart2"><!---input--></div>
+                    <div id="itemlist"></div>
+        
+                    <div id="hitta"></div>
+                </div>
             </div>
+
         </div>
     </main>
 </body>
