@@ -16,7 +16,6 @@
     <header></header>
     <main>
         <div class="store">
-
             <div id="desireditems"></div>
 
             <div id="entrance">
@@ -26,22 +25,31 @@
                         you have come here to purchase these desired items. 
                         look around the store for the items youre searching for and add them to your cart by typing them down below.
                         would you like to enter the store?
-                        PRESS BUTTON TO CONTINUE
+                        <br>
+                        <div class="entrancebutton">
+                            PRESS BUTTON TO ENTER THE STORE
+                            <button onclick="enterStore()">OK</button>
+                        </div>
                     </p>
                 </div>
             </div>
+
             
             <div id="fruitarea">
                 <h1 class="label">fruit</h1>
                 <div class="info">
-                    <p>here are these fruits:</p>
+                    <p>here are these fruits:
+                        <button onclick="fruitArea()">payment</button>
+                    </p>
                 </div>
             </div>
  
             <div id="bread">
                 <h1 class="label">bread</h1>
                 <div class="info">
-                    <p>here are these fruits:</p>
+                    <p>here are these fruits:
+                        <button onclick="breadSection()">fruit area</button>
+                    </p>
                 </div>
             </div>
 
@@ -53,13 +61,10 @@
                 </div>
             </div>
 
-            <div class="upper">
+<!------
                 <h3>areas:</h3>
-                <button onclick="fruitArea()">fruit area</button>
                 <button onclick="breadSection()">bread area</button>
-                <button onclick="makePayment()">payment</button>
-
-            </div>
+                ---->
 
             <div class="lower">
                 <form>

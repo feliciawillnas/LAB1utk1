@@ -4,7 +4,7 @@
 
 body {
     background-color: rgb(222, 228, 255);
-    font-family: 'Silkscreen', cursive;
+    font-family: 'Silkscreen';
     font-size: 11px;
 }
 
@@ -20,9 +20,8 @@ main {
     border: 1px solid black;
 }
 
-h3 {
-    font-size: 11px;
-    display: inline;
+h1 {
+    margin-bottom: 5px;
 }
 
 .store {
@@ -30,49 +29,16 @@ h3 {
     padding: 20px;
 }
 
-/***********AREAS OF THE STORE*************/
-#entrance {
+#store-window {
     display: block;
-}
-
-#fruitarea {
-    display: none; 
-}
-
-#bread {
-    display: none; 
-}
-
-#payment {
-    display: none; 
-}
-
-
-.info {
     padding: 20px;
     border: 1px solid black;
     width: 200;
-    height: 80px;
+    height: fit-content; 
 }
 
 .entrancebutton {
     text-align: center;
-}
-
-
-#itemlist {
-    width: 200px;
-    border: 1px solid black;
-    margin-top: 2px;
-    display: none;
-    
-}
-
-#showcart2 {
-    width: fit-content;
-    border: 1px solid black;
-    margin-top: 2px;
-    display: none;
 }
 
 button {
@@ -93,6 +59,22 @@ button:hover {
     color: white;
 }
 
+/**********funktioner********/
+#itemlist {
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 2px;
+    display: none;
+}
+
+#showcart {
+    width: fit-content;
+    border: 1px solid black;
+    margin-top: 2px;
+    display: none;
+}
+
+/*****input fältet*****/
 input[type="text"]
 {
     font-family: 'Silkscreen'; 
@@ -101,16 +83,19 @@ input[type="text"]
     background-color: aliceblue;
 }
 
-.formbox {
+.formbox { /****så att submit knappen är bredvid input*****/
     display: inline;
 }
 
+.functions {
 
+}
+/******javascript klasser********/
 
-form {
-    display: inline;
+.return-button {
+    margin-left: 10px;
 }
 
-.lower2 {
-    display: inline;
+.all-buttons {
+    align-items: center;
 }
