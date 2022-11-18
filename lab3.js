@@ -3,6 +3,8 @@ window.addEventListener("DOMContentLoaded", main);
 let inventory= [];
 let desiredItems = ["apple", "bread", "pear"];
 
+////spara input typ fråga om namn och återanvända det sen??????? 
+
 function main() {
     changingDiv(); 
 }
