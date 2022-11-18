@@ -90,11 +90,8 @@ function sweetsSection() {
 function printSame() {
 
   found = inventory.filter((val, index) => {
-    console.log('index', index) // Stops at array1.length - 1
     return desiredItems.includes(val)
   })
-  console.log(found)
-
   document.getElementById("hitta").innerHTML = "hittade: " + found; 
 }
 
